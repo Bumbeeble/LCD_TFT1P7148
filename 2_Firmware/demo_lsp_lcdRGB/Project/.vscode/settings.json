@@ -1,0 +1,10 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "gd32f4xx.h": "c",
+        "systick.h": "c",
+        "bsp_led.h": "c",
+        "bsp_usart.h": "c"
+    },
+    "idf.portWin": "COM5"
+}

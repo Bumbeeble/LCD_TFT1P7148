@@ -1,0 +1,13 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'h:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'GD32F450'
+Note: source file '..\Hardware\usart\bsp_usart.c' - object file renamed from '.\Objects\bsp_usart.o' to '.\Objects\bsp_led_1.o'.Note: source file '..\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c' - object file renamed from '.\Objects\gd32f4xx_usart.o' to '.\Objects\gd32f4xx_gpio_1.o'.compiling bsp_key.c...
+..\Hardware\key\bsp_key.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Hardware\key\bsp_key.c(29): warning:  #1-D: last line of file ends without a newline
+  }
+..\Hardware\key\bsp_key.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=3020 RO-data=460 RW-data=24 ZI-data=1232  
+FromELF: creating hex file...
+".\Objects\GD32F450.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:02

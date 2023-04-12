@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\GD32F4xx_standard_peripheral\Include -I ..\Firmware\CMSIS -I ..\Firmware\CMSIS\GD\GD32F4xx\Include -I ..\User -I ..\Hardware\led -I ..\Hardware\usart -I ..\Hardware\key -I ..\App -I ..\Hardware\bsp_rtc -I ..\Hardware\LCD -I ..\Hardware\RGB -I ..\Hardware\SDRAM
+-I.\RTE\_GD32F450
+-Ih:\Users\Bumbe\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\2.1.0\Device\F4XX\Include
+-Ih:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="530" -DGD32F450 -D_RTE_
+-o .\objects\tli.o --omf_browse .\objects\tli.crf --depend .\objects\tli.d "..\Hardware\RGB\TLI.c"

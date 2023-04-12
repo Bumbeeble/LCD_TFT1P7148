@@ -1,0 +1,30 @@
+SET PATH=h:\Keil_v5\ARM\ARMCC\Bin;h:\MentorGraphics95\9.5PADS\SDD_HOME\common\win32\bin;h:\MentorGraphics95\9.5PADS\SDD_HOME\common\win32\lib;h:\MentorGraphics95\9.5PADS\MGC_HOME.ixn\bin;h:\MentorGraphics95\9.5PADS\MGC_HOME.ixn\lib;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;h:\Program Files\IDM Computer Solutions\UltraEdit;H:\Program Files\TortoiseSVN\bin;H:\Program Files\VisualSVN Server\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\ProgramData\chocolatey\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;H:\Qt\Qt5.12.9\5.12.9\msvc2015_64\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Program Files (x86)\HP\IdrsOCR_15.3.1129.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;H:\Program Files\nodejs\;C:\Python38\;H:\Program Files\PuTTY\;C:\Python38\Scripts;H:\Program Files\TortoiseGit\bin;H:\ProgramData\Anaconda3;H:\ProgramData\Anaconda3\Scripts;H:\ProgramData\Anaconda3\Library\mingw-w64\bin;H:\ProgramData\Anaconda3\Library\usr\bin;H:\ProgramData\Anaconda3\Library\bin;h:\Program Files\Git\cmd;C:\Users\Bumbe\.cargo\bin;C:\Users\Bumbe\AppData\Local\Microsoft\WindowsApps;h:\Users\Bumbe\AppData\Local\Programs\Microsoft VS Code\bin;h:\MentorGraphics\PADSVX.2.4\SDD_HOME\CAMCAD;C:\Users\Bumbe\AppData\Local\GitHubDesktop\bin;h:\MentorGraphics95\9.5PADS\SDD_HOME\common\win32\lib;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;h:\Program Files\JetBrains\PyCharm Community Edition 2020.3.3\bin;;C:\Users\Bumbe\AppData\Local\Microsoft\WindowsApps;C:\Users\Bumbe\AppData\Roaming\npm;C:\Python38\;C:\Python38\Scripts;
+SET CPU_TYPE=GD32F450ZE
+SET CPU_VENDOR=GigaDevice
+SET UV2_TARGET=GD32F450
+SET CPU_CLOCK=0x00B71B00
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\main.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\system_gd32f4xx.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmAsm" --Via ".\objects\startup_gd32f450_470._ia"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\systick.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_it.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\bsp_led.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\bsp_usart.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\bsp_key.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\bsp_rtc.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\lcd.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\exmc_sdram.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_gpio.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_usart.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_rcu.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_rtc.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_pmu.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_spi.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_exti.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_crc.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_misc.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_dac.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_exmc.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gd32f4xx_tli.__i"
+"h:\Keil_v5\ARM\ARMCC\Bin\ArmLink" --Via ".\Objects\GD32F450.lnp"
+"h:\Keil_v5\ARM\ARMCC\Bin\fromelf.exe" ".\Objects\GD32F450.axf" --i32combined --output ".\Objects\GD32F450.hex"
