@@ -1,0 +1,3 @@
+[submodule "LCD_TFT1P7148"]
+	path = LCD_TFT1P7148
+	url = https://github.com/Bumbeeble/LCD_TFT1P7148.git
